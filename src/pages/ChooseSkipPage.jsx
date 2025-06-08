@@ -39,7 +39,7 @@ const ChooseSkipPage = () => {
       {/* Filter Toggle Button (mobile only) */}
       <div className="md:hidden px-4">
         <button
-          className="flex items-center gap-2 text-white bg-[#0e8974] px-4 py-2 rounded-md mb-4"
+          className="flex items-center gap-2 text-white bg-[#0e8974] px-4 py-2 rounded-md mb-4 border-0"
           onClick={() => setShowFilter((prev) => !prev)}
         >
           {showFilter ? <XIcon className="h-5 w-5" /> : <FilterIcon className="h-5 w-5" />}
