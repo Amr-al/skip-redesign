@@ -18,14 +18,15 @@ This project is a custom-built version of the “Choose Your Skip” page from [
 |--------|----------------|------------------|
 | **Layout Structure** | Top-down, centered layout | Responsive grid with sidebar and main content |
 | **Color Palette** | Blue/gray brand colors | Custom green `#0e8974` palette |
-| **Stepper UI**  | ✅ Present, static style | ✅ Present, custom styled with Heroicons and animation     |
+| **Stepper UI**  | Present, static style | Present, custom styled with Heroicons and animation     |
 | **Card Design** | Minimal, static info card | Animated, interactive cards with motion effects |
 | **Card Selection** | Page reload / redirection | Smooth selection with animation and highlight |
 | **Action Buttons** | "Continue" takes user to next page | Fixed bottom bar with “Back” and “Continue” |
 | **Responsiveness** | Basic responsiveness | Fully responsive layout optimized for mobile |
 | **Animations** | Minimal | Hover, tap, and entrance animations via Framer Motion |
 | **Fonts** | Default or web-safe fonts | Custom modern web font (e.g., Inter or Roboto) |
-| **Filter Sidebar** | not existed | Visible on larger screens, always present |
+| **Filter Sidebar** | not Present | Visible on larger screens, always present |
+| **Header Image** | not Present | always present |
 
 ---
 
