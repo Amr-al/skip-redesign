@@ -1,4 +1,4 @@
-# 🛠️ Skip Hire Page – Custom Redesign
+# 🛠️ Skip Page Redesign
 
 This project is a custom-built version of the “Choose Your Skip” page from [WeWantWaste.co.uk](https://wewantwaste.co.uk), reimagined with a modern stack:
 
