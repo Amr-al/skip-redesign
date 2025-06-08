@@ -19,7 +19,7 @@ const steps = [
 const Stepper = ({ currentStep = 2 }) => {
   return (
     <div className="w-full overflow-x-auto">
-      <div className="flex items-center gap-4 p-4 whitespace-nowrap min-w-max">
+      <div className="flex items-center justify-center gap-4 p-4 whitespace-nowrap min-w-max">
         {steps.map((step, index) => {
           const isActive = index <= currentStep;
           const isCurrent = index === currentStep;
