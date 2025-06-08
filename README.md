@@ -1,12 +1,69 @@
-# React + Vite
+# 🛠️ Skip Page Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a custom-built version of the “Choose Your Skip” page from [WeWantWaste.co.uk](https://wewantwaste.co.uk), reimagined with a modern stack:
 
-Currently, two official plugins are available:
+- ⚛️ **React (Vite)**
+- 🎨 **Tailwind CSS**
+- 🧩 **Framer Motion**
+- 📦 **Deployed via Vercel**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 Live Redesign: [https://skip-redesign.vercel.app/](https://skip-redesign.vercel.app/)  
+🔗 Original Site: [https://wewantwaste.co.uk/](https://wewantwaste.co.uk/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📊 Table of Differences
+
+| Feature | Original Site | Custom Redesign |
+|--------|----------------|------------------|
+| **Layout Structure** | Top-down, centered layout | Responsive grid with sidebar and main content |
+| **Color Palette** | Blue/gray brand colors | Custom green `#0e8974` palette |
+| **Stepper UI**  | ✅ Present, static style | ✅ Present, custom styled with Heroicons and animation     |
+| **Card Design** | Minimal, static info card | Animated, interactive cards with motion effects |
+| **Card Selection** | Page reload / redirection | Smooth selection with animation and highlight |
+| **Action Buttons** | "Continue" takes user to next page | Fixed bottom bar with “Back” and “Continue” |
+| **Responsiveness** | Basic responsiveness | Fully responsive layout optimized for mobile |
+| **Animations** | Minimal | Hover, tap, and entrance animations via Framer Motion |
+| **Fonts** | Default or web-safe fonts | Custom modern web font (e.g., Inter or Roboto) |
+| **Filter Sidebar** | not existed | Visible on larger screens, always present |
+
+---
+
+## 🧩 Enhancements in the Redesign
+
+### 1. **Improved User Experience**
+- Clearer selection experience with highlighted cards
+- Immediate visual feedback when a skip is selected
+- Summary bar reduces guesswork before proceeding
+
+### 2. **Modern Interface**
+- Interactive elements (hover, tap) using `Framer Motion`
+- Animated stepper to guide users through the booking process
+- Smooth transitions to make the experience feel fluid and intuitive
+
+### 3. **Responsive Design**
+- Optimized for mobile-first
+- Sidebar collapses on smaller screens
+- Bottom panel adapts to screen size and scroll behavior
+
+---
+
+## 🧪 Tech Stack Overview
+
+| Tool        | Purpose                             |
+|-------------|-------------------------------------|
+| React       | UI Framework                        |
+| Vite        | Fast dev server and bundler         |
+| TailwindCSS | Utility-first CSS styling           |
+| Framer Motion | Animations and transitions       |
+| Heroicons   | Beautiful, accessible icons         |
+| Vercel      | Zero-config deployment              |
+
+---
+
+## 🚀 How to Use Locally
+
+1. **Clone the Repo**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/skip-redesign.git
+   cd skip-redesign
