@@ -1,9 +1,14 @@
-import skipImage from "../assets/skip.jpg";
+import skipImage from "../assets/skip.png";
 import { motion } from "framer-motion";
 import { CheckCircleIcon, XCircleIcon } from "@heroicons/react/solid";
+import backgroundImage from "../assets/wewantwaste.png";
 
 const selectedVariants = {
-  initial: { scale: 1,    boxShadow: "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06)", },
+  initial: {
+    scale: 1,
+    boxShadow:
+      "0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06)",
+  },
   selected: {
     scale: 1.01,
     boxShadow: "0px 0px 12px rgba(14, 137, 116, 1)",
@@ -36,13 +41,28 @@ const SkipCard = ({ skip, setSelected, selected }) => {
     ${isSelected ? "ring-2 ring-[#0e8974]" : "hover:shadow-lg"}
   `}
     >
-
       <div className="flex flex-col">
-        <img src={skipImage} alt={skip.name} className="w-full h-28 rounded-t-xl " />
-        <h4 className="text-lg font-semibold px-2">{skip.size} Yard Skip</h4>
-        <p className="text-sm text-gray-600 px-2">
+        <div
+          className="w-full h-auto mx-auto rounded-t-xl mb-4 bg-cover bg-center"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
+        >
+          <img
+            src={skipImage}
+            alt={skip.name}
+            className="w-full h-28 rounded-t-xl "
+          />
+        </div>
+        <div className="flex justify-between px-2">
+          <span className="text-sm font-semibold md:text-lg text-gray-800">
+            {skip.size} Yard Skip
+          </span>
+          <span className="text-xl font-bold text-[#0e8974]">
+            £ {skip.price_before_vat}
+          </span>
+        </div>
+        <span className="text-sm md:text-base text-gray-600 px-2">
           {skip.hire_period_days} day hire period
-        </p>
+        </span>
       </div>
       <div className="flex items-center gap-2 mt-1 px-2">
         {skip?.allowed_on_road ? (
@@ -63,9 +83,6 @@ const SkipCard = ({ skip, setSelected, selected }) => {
       </div>
 
       <div className="flex items-center justify-between mt-4 px-2 pb-2">
-        <span className="text-xl font-bold text-[#0e8974]">
-          £ {skip.price_before_vat}
-        </span>
         <motion.button
           onClick={(e) => {
             e.stopPropagation();
