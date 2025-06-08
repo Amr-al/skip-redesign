@@ -1,15 +1,11 @@
 import { motion } from "framer-motion";
 import backgroundImage from "../assets/background.png";
 
-// Replace this with your image's actual aspect ratio (width / height)
-const ASPECT_RATIO = 3; // ~1.78 (16:9)
-
 const Header = () => {
   return (
     <>
       <div
-        className="w-full relative"
-        style={{ paddingTop: `${100 / ASPECT_RATIO}%` }}
+        className="w-full relative pt-[60%] md:pt-[33.33%] bg-cover "
       >
         {/* Image fills container and scales to contain */}
         <img
