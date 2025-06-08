@@ -17,7 +17,7 @@ function SelectedSkipInfo({selected, setSelected}) {
                 <h2 className="text-xl sm:text-2xl font-bold text-[#0e8974] mb-2">
                   {selected.size} Yard Skip
                 </h2>
-                <p className="text-gray-700 text-sm sm:text-base mb-2">
+                <p className="text-gray-700 text-sm sm:text-base mb-2 pr-4">
                   Imagery and information shown throughout this website may not reflect
                   the exact shape or size specification, colours may vary, options and/or
                   accessories may be featured at additional cost.
