@@ -16,13 +16,11 @@ This project is a custom-built version of the “Choose Your Skip” page from [
 
 | Feature | Original Site | Custom Redesign |
 |--------|----------------|------------------|
-| **Tech Stack** | Likely HTML/CSS with server-side rendering | React + Vite + TailwindCSS + Framer Motion |
 | **Layout Structure** | Top-down, centered layout | Responsive grid with sidebar and main content |
 | **Color Palette** | Blue/gray brand colors | Custom green `#0e8974` palette |
 | **Stepper/Progress UI** | Not present or embedded in flow | Explicit, animated stepper using Heroicons |
 | **Card Design** | Minimal, static info card | Animated, interactive cards with motion effects |
 | **Card Selection** | Page reload / redirection | Smooth selection with animation and highlight |
-| **Selected Skip Info** | No persistent display | Bottom panel appears with skip summary |
 | **Action Buttons** | "Continue" takes user to next page | Fixed bottom bar with “Back” and “Continue” |
 | **Responsiveness** | Basic responsiveness | Fully responsive layout optimized for mobile |
 | **Animations** | Minimal | Hover, tap, and entrance animations via Framer Motion |
