@@ -25,7 +25,7 @@ This project is a custom-built version of the “Choose Your Skip” page from [
 | **Responsiveness** | Basic responsiveness | Fully responsive layout optimized for mobile |
 | **Animations** | Minimal | Hover, tap, and entrance animations via Framer Motion |
 | **Fonts** | Default or web-safe fonts | Custom modern web font (e.g., Inter or Roboto) |
-| **Filter Sidebar** | May appear after steps | Visible on larger screens, always present |
+| **Filter Sidebar** | not existed | Visible on larger screens, always present |
 
 ---
 
